@@ -221,7 +221,7 @@
             padding: 0 25px 0 40px;
             margin-bottom: 150px;
             .select-vine-type
-            {   width: 350px;
+            {   width: 200px;
                 display: flex;
                 flex-direction: column;
                 font-family: Arimo;
@@ -231,7 +231,7 @@
             }
             .vines-grid
             {
-                width: 2000px;
+                width: 1300px;
                 overflow-x: hidden;
                 overflow-y: hidden;
                 display: flex;
@@ -239,13 +239,14 @@
                 position: relative;
                
                 .vines{
-                    min-width: 100%;
+                    min-width: 1300px;
                     display: flex;
+                    align-items: center;
                     flex-wrap: wrap;
                     gap: 25px;
+                    position: relative;
                     .vine
                     {cursor: pointer;
-                        
                         width: 349px;
                         height: 490px;
                         //background-color: green;
