@@ -219,6 +219,7 @@
             display: flex;
             flex-direction: row;
             padding: 0 25px 0 40px;
+            margin-bottom: 150px;
             .select-vine-type
             {   width: 350px;
                 display: flex;
@@ -230,8 +231,7 @@
             }
             .vines-grid
             {
-                width: 1300px;
-                
+                width: 1600px;
                 overflow-x: hidden;
                 overflow-y: hidden;
                 display: flex;
@@ -239,7 +239,7 @@
                 position: relative;
                
                 .vines{
-                    min-width: 1300px;
+                    min-width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     gap: 25px;
