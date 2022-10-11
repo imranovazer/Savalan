@@ -50,7 +50,7 @@ export default function MainContent()
                         <span>Rose</span>
                     </div>
                     <div className="vines-grid">
-                        <div className="vines wines" style={{marginLeft:ActiveCategory===1?"-1300px":"0px"}}>
+                        <div className="vines wines" style={{marginLeft:ActiveCategory===1?"-1300px":"0px",height:ActiveCategory===1 && "100px"}}>
                             {data.categories[0].elements.map(
                                 e=>
                                 (
