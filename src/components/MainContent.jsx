@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function MainContent(props)
 {
-    const [ActiveCategory, SetActiveCategory] =React.useState(0)
+    const [ActiveCategory, SetActiveCategory] =React.useState(props.activeCat)
     const InputData = data.categories.find(e=>e.id===ActiveCategory) ;
     
     return (
@@ -28,9 +28,9 @@ export default function MainContent(props)
             <div className="Buttons">
                 <div className="container">
                     {
-                        data.categories.map((e,index)=>
+                        data.categories.map((e)=>
                             (
-                                <Link to="/slider" id={e.id} className={e.id===ActiveCategory?"button active":"button"} onClick={()=>props.changeCategory(index)}> {e.heading}</Link>
+                                <Link key={e.id} to="/slider" id={e.id} className={e.id===ActiveCategory?"button active":"button"} onClick={()=>props.changeCategory(e.id)}> {e.heading}</Link>
                                 
                             ))
                     }

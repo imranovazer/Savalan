@@ -21,7 +21,7 @@ function App() {
         <NavbarCap />
         <Switch>
           <Route exact path="/">
-            <MainContent changeCategory={changeCategory} />
+            <MainContent changeCategory={changeCategory} activeCat={ActiveCate} />
           </Route>
           <Route path="/slider">
             <Slider activeCat={ActiveCate} />
