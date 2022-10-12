@@ -179,6 +179,7 @@
                     font-size: 24px;
                     color: #000000;
                     cursor: pointer;
+                    text-decoration: none;
                 }
     
                 .button.active {
@@ -187,11 +188,13 @@
                 .button.active::after
                 {
                     content: " ";
-                    display: block;
-                    width: 100%;
-                    height: 1px;
-                    margin-top: 10px;
-                    background-color: #BBA05A;
+                    
+                        display: block;
+                        width: 100%;
+                        height: 1px;
+                        margin-top: 9px;
+                        background-color: #BBA05A;
+                        display: flex;
                 }
             }
     
@@ -200,16 +203,14 @@
         .divide-line
         {
             width: 100%;
-            height: 0;
+            
             display: flex;
             justify-content: center;
-            align-items: center;
-            margin-top: -2px;
+            margin-top: -3px;
             margin-bottom: 100px;
-            .line 
+            hr 
             {
-                width: 1000px;
-                border: 1px solid #CBCBCB;  
+                width: 900px;
             }
         }
         .vines-per-category{
