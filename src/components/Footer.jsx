@@ -1,6 +1,7 @@
 import React from "react";
 import FooterLogo from "../imgs/Logo.png"
 import data from "../data";
+import map from "../imgs/Map.png"
 export default function Footer()
 {
     return (
@@ -60,7 +61,7 @@ export default function Footer()
                     ))}
                 </div>
                 <div className="map">
-
+                        <img src={map} alt="" />
                 </div>
            </div>
 
