@@ -1,6 +1,7 @@
 import React from "react";
 import data  from "../data";
 import { Link } from "react-router-dom";
+import image from "../imgs/WINE TOURS.png"
 
 export default function MainContent(props)
 {
@@ -95,7 +96,7 @@ export default function MainContent(props)
             <div className="wine-tours">
 
                         <div className="backgrounfImg">
-
+                              
                         </div>
                         <div className="wineToursText">
                             <div className="header">
