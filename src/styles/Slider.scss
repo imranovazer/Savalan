@@ -109,7 +109,7 @@
         margin-bottom: 150px;
 
         .select-vine-type {
-            width: 200px;
+            width: 20%;
             display: flex;
             flex-direction: column;
             font-family: Arimo;
@@ -119,24 +119,28 @@
         }
 
         .vines-grid {
-            width: 1300px;
+            width: 100%;
             overflow-x: hidden;
             overflow-y: hidden;
             display: flex;
             flex-direction: row;
             position: relative;
+           
 
             .vines {
-                min-width: 1300px;
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 25px;
+                min-width: 100%;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                // display: flex;
+                // align-items: center;
+                // flex-wrap: wrap;
+                // gap: 25px;
+                
                 position: relative;
 
                 .vine {
                     cursor: pointer;
-                    width: 349px;
+                    width: 80%;
                     height: 490px;
                     //background-color: green;
                     display: flex;

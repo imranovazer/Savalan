@@ -41,7 +41,8 @@ import "../styles/Slider.scss"
                         <span>Rose</span>
                     </div>
                     <div className="vines-grid">
-                        <div className="vines wines" style={{marginLeft:ActiveCategory===1?"-1300px":"0px",height:ActiveCategory===1 && "100px"}}>
+                        {/* //<div className="wines-container"> */}
+                        <div className="vines wines" style={{marginLeft:ActiveCategory===1?"-100%":"0px",height:ActiveCategory===1 && "100px"}}>
                             {data.categories[0].elements.map(
                                 e=>
                                 (
@@ -83,6 +84,7 @@ import "../styles/Slider.scss"
                                 )
                             )}
                         </div>
+                        {/* </div> */}
                     </div>
             </div>
         </div>) ;
