@@ -417,7 +417,7 @@ html{
 //-----------------------------------------------------------
 .Footer
 {
-    overflow-x: hidden;
+    //overflow-x: hidden;
     color: #FFFFFF;
     box-sizing: border-box;
    
@@ -498,9 +498,10 @@ html{
         position: relative;
         
        
-        gap: 100px;
+        gap: 6%;
         .products
         {
+            flex: 1;
             width: fit-content;
             font-family: Arimo-light;
             color: #FFFFFF;
@@ -532,6 +533,7 @@ html{
         }
         .company
         {
+            flex: 1;
             display: flex;
             flex-direction: column;
             .head
@@ -555,6 +557,7 @@ html{
         }
         .contacts
         {
+            flex: 1;
             .section
             {
                margin-bottom: 40px;
@@ -575,20 +578,23 @@ html{
         }
         .map 
         {
+            flex: 3;
             // background-position: center center;
             // background-repeat: no-repeat;
             // //background-attachment: fixed;
             // background-size: cover;
-            width: 100%;
-            height: 315px;
+            //width: 100%;
+            //height: 315px;
             display: flex;
             
             justify-content: center;
             box-sizing: border-box;
-            padding: 0 50px 0 50px;
+            
             img {
-                width: 100%;
-                max-width: 453px;
+                //width: 100%;
+                //@at-root: 453px;
+                width: 75%;
+                height: 60%;
                 
             }
             

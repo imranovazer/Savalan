@@ -61,7 +61,7 @@ export default function Footer()
                     ))}
                 </div>
                 <div className="map">
-                        <img src={map} alt="" />
+                         <img src={map} alt="" /> 
                 </div>
            </div>
 
