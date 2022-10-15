@@ -18,7 +18,7 @@ export default function Footer()
                 </span>
                 <div className="text-area">
                     <input type="text" placeholder="Your e-mail address" className="text"/>
-                    <input type="submit" className="submit"/>
+                    <input type="submit" className="submit" value="Submit"/>
                 </div>
            </div>
            <div className="footer-details">
